@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+data/raw/
+data/processed/
+
+# Generated outputs
+outputs/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
